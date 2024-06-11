@@ -12,7 +12,7 @@ class MyApp extends StatelessWidget {
     return MaterialApp(
         home: Scaffold(
 
-          appBar: AppBar(title: Text("앱임", style: TextStyle(color: Colors.white),), backgroundColor: Colors.blue,),
+          appBar: AppBar(title: Text("앱임", style: TextStyle(color: Colors.white), ), backgroundColor: Colors.blue,),
           body: Text("안녕"),
           bottomNavigationBar: BottomAppBar(
             child: Row(
