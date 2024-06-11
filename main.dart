@@ -13,7 +13,7 @@ class MyApp extends StatelessWidget {
         home: Scaffold(
 
           appBar: AppBar(title: Text("앱임", style: TextStyle(color: Colors.white), ), backgroundColor: Colors.blue,),
-          body: Text("하이"),
+          body: Text("안녕"),
           bottomNavigationBar: BottomAppBar(
             child: Row(
               mainAxisAlignment: MainAxisAlignment.spaceEvenly,
