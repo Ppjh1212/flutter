@@ -12,7 +12,7 @@ void main(){
   String? name;
   name ??= 'anothor';
 
-
+  print(reverseListOfNumbers([1, 2, 3]));
 }
 
 String sayHello({required String name, required int age, required String country}) {
@@ -23,3 +23,12 @@ String a(String name, int age, [String? country = 'c']) => '$name, $age, $countr
 
 String capitalizeName(String? name) => name?.toUpperCase() ?? 'ANON';
 
+typedef ListOfInts = List<int>;
+ListOfInts reverseListOfNumbers(List<int> list) {
+  var reversed = list.reversed;
+  return reversed.toList();
+}
+
+String sayHi(Map<String, String> userInfo) {
+  return "Hi ${userInfo['name']}";
+}
