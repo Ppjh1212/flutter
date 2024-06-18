@@ -9,22 +9,22 @@ void main() {
   dyna = 123;
   dyna = true;
   if (dyna is String) { // dyna이 string타입이라고 가정
-    dyna.
+  //  dyna.
   }
 
   //3
   String? elsa = 'elsa'; // string | null
   elsa = null;
-  elsa?.isEmpty //elsa=null이면 isMmpty호출x
+  //elsa?.isEmpty //elsa=null이면 isMmpty호출x
 
   //4
   final porm = 'porm';
-  porm = '아잉';
+  //porm = '아잉';
 
   //5
   late final qut; // late : final/var 앞에 오는 수식어 및 데이터없이 초기화
 
   //6
   const na = 'na'; //상수, 알고 있는 값
-  na = '12';
+  //na = '12';
 }
